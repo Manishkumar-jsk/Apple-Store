@@ -1,0 +1,635 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+.mobile3{
+    display:none;
+}
+.navbar-nav{
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.navbar-nav li,a{
+    color:#b3b3b3;
+    padding-left:10px;
+    padding-right:53px;
+}
+.navbar-nav i{
+    font-size:1.4rem;
+}
+.navbar-nav a:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.navbar{
+background:#333333;
+}
+.header-txt{
+    background:#f8f8f8;
+    margin-top:60px;
+}
+.header-txt p{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align: center;
+    font-size:1rem;
+}
+.txt1{
+    padding-left:20px;
+    padding-right:20px;
+    max-width:740px;
+}
+
+.iphone-12__text h1{
+    font-size:3.3rem;
+}
+.iphone-12__text{
+    margin-top:30px;
+}
+.iphone-12__text p{
+    font-size:1.3rem;
+}
+.iphone-12__links{
+    text-align:center;
+    position: relative;
+    left:30px;
+}
+.iphone-12__links a{
+    color:#1e85ae;
+    font-size:1.4rem;
+}
+.iphone-12pro{
+    background-color:black;
+    margin-top:15px;
+    width:100%;
+    height:100vh;
+}
+.iphone-12pro__text h1{
+    padding-top:40px;;
+}
+.iphone-12pro__text p{
+    font-size:1.3rem;
+}
+.ipad-pro{
+    background-color: black;
+    margin-top:15px;
+    width:100%;
+    height:100vh;
+}
+.watch{
+    background:black;
+    width:50%;
+    height:600px;
+    overflow:hidden;
+}
+.imac{
+    width:50%;
+    height:600px;
+    overflow:hidden;
+}
+.watch__imac{
+    margin-top:15px;
+}
+
+.imac__watch{
+    display:flex;
+}
+
+.imac__txt{
+    margin-top:50px;
+}
+.imac__txt p{
+    font-size:1.5rem;
+}
+.imac__link{
+    margin-left:20px;
+    font-size:1.3rem;
+}
+.airtag{
+    width:50%;
+    height:600px;
+    overflow:hidden;
+}
+.tv{
+    width:50%;
+    height:600px;
+    overflow:hidden;
+}
+.tv__airtag{
+    margin-top:15px;
+}
+.tv__span{
+    color:orange;
+}
+.imac__link1{
+    margin-left:50px;
+    font-size:1.3rem;
+}
+.logo__txt{
+    position:relative;
+    bottom:25px;
+}
+.logo__header{
+    position: relative;
+    bottom:30px;
+}
+.tv__txt{
+    padding-top:30px;
+    /*position:relative;
+    top:40px;*/
+}
+.airtag__txt{
+    padding-top:30px;
+}
+.airtag__txt p{
+    font-size:1.4rem;
+}
+.tv__img{
+    position: relative;
+    bottom:37px;
+}
+.about{
+    background:#f8f8ff;
+    margin-top:15px;
+}
+.about__txt{
+    padding-top:20px;
+}
+.list li{
+    list-style-type: none;
+    margin-right:80px;
+    color:#939393;
+}
+.list h6{
+    color:black;
+}
+.list{
+    position: relative;
+    right:0px;
+}
+.about__pat{
+    margin-left:15px;
+}
+.about__pat p{
+    color:#939393;
+}
+.account{
+    padding-top:20px;
+}
+.content{
+    margin-left:10px;
+}
+.footer li{
+    list-style-type: none;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+.copyright{
+    position:relative;
+    bottom:10px;
+}
+.vertical{
+    border-left:1px solid #cccc;
+    padding-left:8px;
+    margin-left:8px;
+    height:20px;
+    position:relative;
+    top:4px;
+
+}
+.india{
+    position:absolute;
+    left:95%;
+}
+.copyright1{
+    position: relative;
+    top:10px;
+}
+.content3{
+    display: flex;
+}
+.mobile1{
+    display:none;
+}
+
+@media screen and (max-width:600px) {
+    .header-txt{
+        background:#f8f8f8;
+        margin-top:50px;
+        width:100%
+    }
+    .header-txt p{
+        padding-top:12px;
+        padding-bottom:12px;
+        text-align: center;
+        font-size:1.1rem;
+    }
+    .txt1{
+        padding-left:78px;
+        padding-right:78px;
+        max-width:740px;
+    }
+    .myclass{
+        content:url('img/iphon12__600px.jpg');
+        width:350px;
+        height:300px;
+        margin:auto;
+        display: block;
+    }
+    .iphone-12__text h1{
+        font-size:2.4rem;
+    }
+    .iphone-12__text h3{
+        font-size:1.5rem;
+    }
+    .iphone-12__text{
+        padding-top:8px;
+        height:75vh;
+    }
+    .iphone-12__text p{
+        font-size:1.1rem;
+    }
+    .iphone-12__links{
+        text-align:center;
+        position: relative;
+        left:30px;
+    }
+    .iphone-12__links a{
+        color:#1e85ae;
+        font-size:1.3rem;
+    }
+    .iphone-12pro{
+        background:black;
+        margin-top:15px;
+        width:100%;
+        height:77vh;
+    }
+    .iphone-12pro__text h1{
+        padding-top:40px;
+        font-size:2.4rem;
+    }
+    .iphone-12pro__text h4{
+        font-size:1.5rem;
+    }
+    .iphone-12pro__text p{
+        font-size:1.1rem;
+    }
+    .mobile{
+        content:url('https://cdn.nguyenkimmall.com/images/companies/_1/Content/dien-thoai/iphone/dien-thoai-iphone-12-pro-max-128gb-vang-he-thong-camera-vuot-troi.jpg');
+        width:350px;
+        height:330px;
+        margin:auto;
+        display:block;
+    }
+    .ipad-pro{
+            background:black;
+            margin-top:15px;
+            width:100%;
+            height:80vh;
+    }
+    .pad{
+        content:url('https://www.iphon.fr/app/uploads/2021/04/iPad-Pro-blanc-2021.jpg');
+        width:300px;
+        height:300px;
+        margin-top:50px;
+    }
+    .imac__watch{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .imac{
+        width:100%;
+        height:80vh;
+    }
+    .mac__img img{
+        width:400px;
+        height:360px;
+    }
+    .watch{
+        margin-top:15px;
+        width:100%;
+        height:80vh;
+    }
+    .watch--img{
+        content:url('https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg');
+        width:380px;
+        height:300px;
+        margin:auto;
+        display:block;
+    }
+    .airtag{
+        margin-top:15px;
+        width:100%;
+        height:80vh;
+    }
+    .tv{
+        width:100%;
+        height:80vh;
+    }
+    .desktop{
+        display:none;
+    }
+    .list1 li{
+        list-style-type: none;
+        font-size:0.8rem;
+    }
+    .mobile1{
+        display: inline;
+        margin-left:5px;
+        margin-right:20px;
+    }
+    .airtag__img img{
+        height:450px;
+    }
+    .content{
+        margin-left:10px;
+    }
+    .content1{
+        display:none;
+    }
+    .content2{
+        position: relative;
+        bottom:30px;
+        padding-right:0px;
+    }
+    .content3{
+        display: inline;
+    }
+    .footer li{
+        font-size:0.4rem;
+        list-style-type: none;
+        padding-left:20px;
+        padding-right:0px;
+        padding-top: 10px;
+        padding-bottom:0px;
+    }
+    .copyright{
+        position:relative;
+        bottom:10px;
+    }
+    .vertical{
+        border-left:1px solid #cccc;
+        padding-left:10px;
+        margin-left:13px;
+        height:20px;
+        position:relative;
+    }
+    .india{
+        position:absolute;
+        bottom:1px;
+    }
+    .content4{
+        margin-left:10px;
+        font-size:0.8rem;
+    }
+    .content5{
+        position: relative;
+        right:15px;
+        bottom:15px;
+    }
+    button{
+        background:none;
+        border:none;
+    }
+    .show-content{
+        background:#f8f8f8;
+    }
+    .show-content li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .hidden{
+        display:none;
+    }
+    .closebtn{
+        display:none;
+    }
+    .closebtn1{
+        display:none;
+    }
+    .closebtn2{
+        display:none;
+    }
+    .closebtn3{
+        display:none;
+    }
+    .closebtn4{
+        display:none;
+    }
+    .closebtn5{
+        display:none;
+    }
+    .closebtn6{
+        display:none;
+    }
+    .closebtn7{
+        display:none;
+    }
+    .closebtn8{
+        display:none;
+    }
+    .service{
+        background:#f8f8f8;
+    }
+    .service li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .account1{
+        background:#f8f8f8;
+    }
+    .account1 li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .apple__store{
+        background:#f8f8f8;
+    }
+    .apple__store li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .business{
+        background:#f8f8f8;
+    }
+    .business li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .education{
+        background:#f8f8f8;
+    }
+    .education li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .apple__values{
+        background:#f8f8f8;
+    }
+    .apple__values li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .about__apple li{
+        background:#f8f8f8;
+    }
+    .about__apple li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .healthcare li{
+        background:#f8f8f8;
+    }
+    .healthcare li{
+        list-style-type:none;
+        color:#939393;
+    }
+    .about__pat{
+        margin-left:0px;
+    }
+    .about__pat p{
+        color:#939393;
+        font-size:0.8rem;
+    }
+    .about__txt{
+        padding-top:10px;
+    }
+    .mobile3{
+        display:flex;
+    }
+    .horizontal{
+        border-color:#939393;
+        width:100%;
+    }
+    .apple i{
+        font-size:1.5rem;
+    }
+    .apple{
+        margin: auto;
+    }
+    .apple a:hover{
+        color:#fff;
+    }
+    .shopping{
+        display: inline;
+        position:relative;
+        left:55px;    
+    }
+    .shopping i{
+        font-size:1.3rem;
+    }
+    .shopping a:hover{
+        color:#fff;
+    }   
+}
+
+@media screen and (max-width:400px){
+    .header-txt p{
+        padding-top:12px;
+        padding-bottom:12px;
+        text-align: center;
+        font-size:0.8rem;
+    }
+    .myclass{
+        content:url('img/iphon12__600px.jpg');
+        width:330px;
+        height:260px;
+        margin:auto;
+        display: block;
+    }
+    .mobile{
+        content:url('https://cdn.nguyenkimmall.com/images/companies/_1/Content/dien-thoai/iphone/dien-thoai-iphone-12-pro-max-128gb-vang-he-thong-camera-vuot-troi.jpg');
+        width:350px;
+        height:282px;
+        margin:auto;
+        display:block;
+    }
+    .iphone-12pro{
+        background:black;
+        margin-top:15px;
+        width:100%;
+        height:80vh;
+    }
+    .pad{
+        content:url('https://www.iphon.fr/app/uploads/2021/04/iPad-Pro-blanc-2021.jpg');
+        width:380px;
+        height:270px;
+        margin-top:10px;
+    }
+    .mac__img img{
+        width:380px;
+        height:330px;
+    }
+    .watch--img{
+        content:url('https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg');
+        width:380px;
+        height:260px;
+        margin:auto;
+        display:block;
+    }
+    .tv__img img{
+        width: 330px;
+        height:300px
+    }
+    .tv__img{
+        padding-top: 4px;
+    }
+    .airtag__img img{
+        width:380px;
+        height:330px;
+    }
+    .content2 p{
+        font-size:0.7rem;
+    }
+    .iphone-12__text h1{
+        font-size:2.5rem;
+    }
+    .iphone-12__text p{
+        font-size:1rem;
+    }
+    .iphone-12__links a{
+        color:#1e85ae;
+        font-size:1.2rem;
+    }
+    .iphone-12pro__text h1{
+        font-size:2.5rem;
+    }
+    .iphone-12pro__text p{
+        font-size:1rem;
+    }
+    .iphone-12__links a{
+        font-size:1.2rem;
+    }
+    .imac__txt h1{
+        font-size:2.5rem;
+    }
+    .imac__link a{
+        font-size:1.2rem;
+    }
+    .imac__txt h3{
+        font-size:2rem;
+    }
+    .imac__txt h5{
+        font-size:1.2rem;
+    }
+    .watch_txt p{
+        font-size:1.2rem;
+    }
+    .imac__link1 a{
+        font-size:1.2rem;
+    }
+    .logo__header h2{
+        font-size:1.8rem;
+    }
+    .airtag__txt h1{
+        font-size: 2.5rem;
+    }
+    .airtag__txt p{
+        font-size:1.2rem;
+    }
+
+}
